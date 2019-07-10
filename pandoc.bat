@@ -1,1 +1,2 @@
-pandoc.exe -t html -o index.html --self-contained --mathjax --css Theme.css ..\arrayFireAPI\README.md
+pandoc.exe -t html -o index_.html --metadata pagetitle="MATLAB API bindings for ArrayFire" -H seoHeader.txt --self-contained --mathjax --css Theme.css ..\arrayFireAPI\README.md
+copy yamlFrontMatter.txt + index_.html index.html

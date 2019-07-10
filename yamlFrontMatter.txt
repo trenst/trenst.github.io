@@ -1,0 +1,4 @@
+---
+title: MATLAB API bindings for ArrayFire
+description: The purpose of this project is to expose the ArrayFire library to MATLAB through an API using syntax familiar to the MATLAB developer. The API introduces a new MALAB class called afArray. An afArray object references an ArrayFire array stored on the GPU. Inputs to ArrayFire functions are afArrays, and the output is also an afArray. Memory I/O to/from the GPU only occurs when an explicit call is made, so the developer can optimize the code to minimize the amount of I/O which takes place. GPU memory I/O is the main bottleneck in GPGPU processing, so giving the MATLAB programmer control over this task is vital to the success of this API.
+---
